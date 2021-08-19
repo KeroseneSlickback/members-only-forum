@@ -1,0 +1,12 @@
+The user comes to the Home page
+They're presented with Log In or Sign Up buttons
+Log In routes them to the Login Form
+Signup routes them to the Signup Form
+
+Log In ports them to the Log In controller that verifies their account with the database
+Signup ports them to the Signup controller that creates an account
+Both, when done, ports them to the messaging board.
+
+The Messaging Board shows the messages and time stamps, but every user is Anon
+Within the Messaging Board, there's a button that enters them into the Members messaging board that shows everything
+Within either, they can post messages using a simple form 
